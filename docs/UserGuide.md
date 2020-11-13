@@ -119,8 +119,6 @@ Once you delete a flashcard, there is no way to undo this and retrieve it! Make 
 that you would like to delete this specific flashcard!
 </div>
 
-<div style="page-break-after: always;"></div>
-
 ### Editing a flashcard: `edit`
 
 Made a mistake? No worries! This command lets you edit a specific flashcard.
@@ -142,8 +140,6 @@ Examples:
 *  `edit 1 s/2` edits the set number which this flashcard is in, to `2`.
 *  `edit 1 t/p-value tag/` edits the title of the 1st flashcard to be `p-value` and clears all existing tags.
 
-<div style="page-break-after: always;"></div>
-
 Visual walkthrough:
 1. Type `list` into the command box and hit enter to view all flashcards.
    ![edit example](images/editExample1.png)
@@ -154,6 +150,8 @@ Visual walkthrough:
    ![edit example](images/editExample2.png)
 1. Press enter. A message should appear saying that the flashcard has been edited.
    ![edit example](images/editExample3.png)
+
+<div style="page-break-after: always;"></div>
 
 ### Viewing a flashcard: `view`
 
@@ -226,8 +224,6 @@ Format: `search k/KEYWORD`
 Examples:
 *  `search k/testing` returns `testing1`, `testing2` and `testing23`
 ![search example](images/searchExample.png)
-
-<div style="page-break-after: always;"></div>
 
 ### Sorting flashcards: `sort`
 
