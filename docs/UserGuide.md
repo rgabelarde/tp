@@ -142,6 +142,8 @@ Examples:
 *  `edit 1 s/2` edits the set number which this flashcard is in, to `2`.
 *  `edit 1 t/p-value tag/` edits the title of the 1st flashcard to be `p-value` and clears all existing tags.
 
+<div style="page-break-after: always;"></div>
+
 Visual walkthrough:
 1. Type `list` into the command box and hit enter to view all flashcards.
    ![edit example](images/editExample1.png)
@@ -167,6 +169,8 @@ Format: `view INDEX`
 * To view another flashcard, enter `list` to go back to the entire list of flashcards. Then `view INDEX` of the next flashcard
 you would like to view.
 </div>
+
+<div style="page-break-after: always;"></div>
 
 Visual walkthrough: 
 1. Use `list` to obtain the index of the flashcard you want to view. In this example, you want to view the flashcard with the
@@ -223,6 +227,7 @@ Examples:
 *  `search k/testing` returns `testing1`, `testing2` and `testing23`
 ![search example](images/searchExample.png)
 
+<div style="page-break-after: always;"></div>
 
 ### Sorting flashcards: `sort`
 
@@ -277,6 +282,7 @@ Say goodbye to Bagel! This command lets you exit the program.
 Format: `exit`
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## FAQ
 
@@ -303,6 +309,7 @@ while adding flashcards, and to prevent confusion.
 do be sure to make use of the 'set' feature to place flashcards into different sets.
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Command summary
 
