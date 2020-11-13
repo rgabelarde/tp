@@ -14,6 +14,7 @@ If you can type fast, Bagel will be sure to aid you in managing your flashcards 
 {:toc}
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Quick start
 
@@ -39,6 +40,7 @@ If you can type fast, Bagel will be sure to aid you in managing your flashcards 
 Refer to the [Features](#features) below for details of each command.
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Features
 
@@ -312,7 +314,7 @@ Action | Format, Examples
 **View** | `view INDEX`<br> e.g., `view 1`
 **List** | `list [s/SET]`<br> e.g., `list s/2`
 **Flip** | `flip`
-**Search** | `search [k/KEYWORD]` <br> e.g., `search k/Data`
+**Search** | `search k/KEYWORD` <br> e.g., `search k/Data`
 **Sort** | `sort r/REQUIREMENT` <br> e.g., `sort r/tag`
 **Clear** | `clear`
 **Help** | `help`
