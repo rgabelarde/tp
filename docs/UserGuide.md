@@ -13,8 +13,9 @@ If you can type fast, Bagel will be sure to aid you in managing your flashcards 
 * Table of Contents
 {:toc}
 
---------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
+
+--------------------------------------------------------------------------------------------------------------------
 
 ## Quick start
 
@@ -68,6 +69,7 @@ only the last parameter supplied will be considered.
   `title 2`, as only `t/title 2` will be considered.
 </div>
 
+<div style="page-break-after: always;"></div>
 
 ### Adding a flashcard: `add`
 
@@ -101,6 +103,7 @@ l/https://en.wikipedia.org/wiki/Observational_study tag/Types tag/ObservationalS
 the title `Types of Observational Studies`, description `Prospective, Retrospective, Cross-sectional`,
 link `https://en.wikipedia.org/wiki/Observational_study` with the tags `Types` and `ObservationalStudies` into set `2`.
 
+<div style="page-break-after: always;"></div>
 
 ### Deleting a flashcard: `delete`
 
@@ -118,6 +121,8 @@ Format: `delete INDEX`
 Once you delete a flashcard, there is no way to undo this and retrieve it! Make sure that you have a copy of your file somewhere else, or
 that you would like to delete this specific flashcard!
 </div>
+
+<div style="page-break-after: always;"></div>
 
 ### Editing a flashcard: `edit`
 
@@ -168,8 +173,6 @@ Format: `view INDEX`
 you would like to view.
 </div>
 
-<div style="page-break-after: always;"></div>
-
 Visual walkthrough: 
 1. Use `list` to obtain the index of the flashcard you want to view. In this example, you want to view the flashcard with the
 title `Types of Sampling Plan`.
@@ -181,6 +184,7 @@ title `Types of Sampling Plan`.
 3. The flashcard with the title `Types of Sampling Plan` will then be displayed.
 ![view example](images/viewExample4.png)
 
+<div style="page-break-after: always;"></div>
 
 ### Listing all flashcards: `list`
 
@@ -193,6 +197,7 @@ Format:
 Example:
 * `list s/2` displays all flashcards in set `2`.
 
+<div style="page-break-after: always;"></div>
 
 ### Flipping through flashcards: `flip`
 
@@ -211,6 +216,7 @@ Visual walkthrough:
 3. Type "flip" to show the next flashcard in the sequence.
 ![flip example](images/flipExample3.png)
 
+<div style="page-break-after: always;"></div>
 
 ### Searching through flashcards: `search`
 
@@ -224,6 +230,8 @@ Format: `search k/KEYWORD`
 Examples:
 *  `search k/testing` returns `testing1`, `testing2` and `testing23`
 ![search example](images/searchExample.png)
+
+<div style="page-break-after: always;"></div>
 
 ### Sorting flashcards: `sort`
 
@@ -255,6 +263,8 @@ This sorts all flashcards in Bagel! If you wish to view a set that is differentl
 from another set, `sort r/REQUIREMENT` again for that set.
 </div>
 
+<div style="page-break-after: always;"></div>
+
 ### Clearing all flashcard entries: `clear`
 
 Want to forget everything? This command clears all flashcard entries from Bagel.
@@ -277,8 +287,9 @@ Say goodbye to Bagel! This command lets you exit the program.
 
 Format: `exit`
 
---------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
+
+--------------------------------------------------------------------------------------------------------------------
 
 ## FAQ
 
