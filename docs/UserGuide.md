@@ -13,6 +13,8 @@ If you can type fast, Bagel will be sure to aid you in managing your flashcards 
 * Table of Contents
 {:toc}
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## Quick start
@@ -114,6 +116,7 @@ only the last parameter supplied will be considered.
   `title 2`, as only `t/title 2` will be considered.
 </div>
 
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## Features
@@ -164,7 +167,6 @@ the details:
   * Tag(s): `Types` and `ObservationalStudies` 
   * Set: `2`
 
-
 ### Deleting a flashcard: `delete`
 
 Don't want to see a flashcard anymore? This command will delete the specific flashcard that you specified from your list of flashcards.
@@ -185,6 +187,7 @@ that you would like to delete this specific flashcard!
 Example:
 * `delete 1` will permanently delete/remove your flashcard that is set at index `1`
 
+<div style="page-break-after: always;"></div>
 
 ### Editing a flashcard: `edit`
 
@@ -207,6 +210,18 @@ Examples:
 *  `edit 1 s/2` edits the set number which this flashcard is in, to `2`.
 *  `edit 1 t/p-value tag/` edits the title of the 1st flashcard to be `p-value` and clears all existing tags.
 
+Visual walkthrough:
+1. Type `list` into the command box and hit enter to view all flashcards.
+   ![edit example](images/editExample1.png)
+1. Look for the index of the card you want to edit.<br>
+   For example, if you want to edit the flashcard with title `Types of Sampling Plan`, the index here is `2`, written to the left of the title.
+1. Type `edit  2` in the command box, followed with the information to be edited.<br>
+   For example, if you want to change the title to `Sampling Plan`, write `t/Sampling Plan`.
+   ![edit example](images/editExample2.png)
+1. Press enter. A message should appear saying that the flashcard has been edited.
+   ![edit example](images/editExample3.png)
+
+<div style="page-break-after: always;"></div>
 
 ### Viewing a flashcard: `view`
 
@@ -223,6 +238,18 @@ Format: `view INDEX`
 you would like to view.
 </div>
 
+Visual walkthrough: 
+1. Use `list` to obtain the index of the flashcard you want to view. In this example, you want to view the flashcard with the
+title `Types of Sampling Plan`.
+![view example](images/viewExample1.png)
+2. You can find the index of the flashcard by looking at the number at its left.
+![view example](images/viewExample2.png)
+2. In the command box at the top, type `view`, followed by the index of the flashcard which is `2` and hit enter.
+![view example](images/viewExample3.png)
+3. The flashcard with the title `Types of Sampling Plan` will then be displayed.
+![view example](images/viewExample4.png)
+
+<div style="page-break-after: always;"></div>
 
 ### Listing all flashcards: `list`
 
@@ -235,6 +262,7 @@ Format:
 Example:
 * `list s/2` displays all flashcards in set `2`.
 
+<div style="page-break-after: always;"></div>
 
 ### Flipping through flashcards: `flip`
 
@@ -244,14 +272,16 @@ Want to flip through the list of flashcards? This command lets you flip from the
 * Once the end of the sequence is reached, the first flashcard will be shown again.
 
 Format: `flip`
-Examples:
-1. Current flashcards in the sequence
+
+Visual walkthrough:
+1. Current flashcards in the sequence.
 ![flip example](images/flipExample1.png)
-2. Type "flip" to show the first flashcard in the sequence
+2. Type "flip" to show the first flashcard in the sequence.
 ![flip example](images/flipExample2.png)
-3. Type "flip" to show the next flashcard in the sequence
+3. Type "flip" to show the next flashcard in the sequence.
 ![flip example](images/flipExample3.png)
 
+<div style="page-break-after: always;"></div>
 
 ### Searching through flashcards: `search`
 
@@ -266,6 +296,7 @@ Examples:
 *  `search k/testing` returns `testing1`, `testing2` and `testing23`
 ![search example](images/searchExample.png)
 
+<div style="page-break-after: always;"></div>
 
 ### Sorting flashcards: `sort`
 
@@ -280,14 +311,24 @@ Format: `sort r/REQUIREMENT`
     * tag
 
 Examples:
-* `sort r/atitle` returns the list of flashcards, sorted in ascending alphabetical order.
 * `sort r/tag` returns the list of flashcards, sorted according to each flashcard's first tag.
+* `sort r/atitle` returns the list of flashcards, sorted in ascending alphabetical order.
 
 <div markdown="block" class="alert alert-danger">
 **:information_source: Warning:**<br>
 This sorts all flashcards in Bagel! If you wish to view a set that is differently sorted
 from another set, `sort r/REQUIREMENT` again for that set.
 </div>
+
+Visual walkthrough:
+1. You want to sort your list of flashcards by ascending title.
+2. Type `sort`, followed by `r/atitle` for the requirement.
+![sort example](images/sortExample1.png)
+3. The sorted list of flashcards will be displayed.
+![sort example](images/sortExample2.png)
+
+
+<div style="page-break-after: always;"></div>
 
 ### Clearing all flashcard entries: `clear`
 
@@ -321,6 +362,8 @@ Say goodbye to Bagel! This command lets you exit the program.
 
 Format: `exit`
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## FAQ
@@ -348,18 +391,19 @@ while adding flashcards, and to prevent confusion.
 do be sure to make use of the 'set' feature to place flashcards into different sets.
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Command summary
 
 Action | Format, Examples
 --------|------------------
-**Add** | `add t/TITLE d/DESCRIPTION s/SET [l/LINK] [tag/TAG]…`<br> e.g., `add t/Data Analysis d/The definition of Data Analysis is…`
+**Add** | `add t/TITLE d/DESCRIPTION [s/SET] [l/LINK] [tag/TAG]…`<br> e.g., `add t/Data Analysis d/The definition of Data Analysis is…`
 **Delete** | `delete INDEX`<br> e.g., `delete 3`
 **Edit** | `edit INDEX [t/TITLE] [d/DESCRIPTION] [s/SET] [l/LINK] [tag/TAG]`<br> e.g., `edit 1 t/Data analysis`
 **View** | `view INDEX`<br> e.g., `view 1`
 **List** | `list [s/SET]`<br> e.g., `list s/2`
 **Flip** | `flip`
-**Search** | `search [k/KEYWORD]` <br> e.g., `search k/Data`
+**Search** | `search k/KEYWORD` <br> e.g., `search k/Data`
 **Sort** | `sort r/REQUIREMENT` <br> e.g., `sort r/tag`
 **Clear** | `clear`
 **Help** | `help`
