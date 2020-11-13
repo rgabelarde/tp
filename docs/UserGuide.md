@@ -16,7 +16,6 @@ If you can type fast, Bagel will be sure to aid you in managing your flashcards 
 <div style="page-break-after: always;"></div>
 
 --------------------------------------------------------------------------------------------------------------------
-
 ## Quick start
 
 1. Ensure you have Java 11 or above installed in your computer.
@@ -40,16 +39,15 @@ If you can type fast, Bagel will be sure to aid you in managing your flashcards 
 
 Read on to find out more about Bagel with us!
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
-
 ## Preface (How should I navigate this entire document?)
-
 ### Structure
 
 Our team at Bagel has structured this User Guide to improve your reading experience and aid you in locating the information you are searching for efficiently. 
 Below, we will provide a few useful tips on how to optimally read this guide.
 We will then proceed to elaborate on the features of Bagels with concrete examples that you can try out to get used to our interface!
-
 ### How can you optimally read this guide?
 
 Dread that you'll not be familiar with command-line interfaces or conventional technical terms? Afraid to feel lost amongst complicated technical jargon?
@@ -62,6 +60,7 @@ The figure below is the GUI of **Bagel** with some annotations that we would lik
 
 ![AnnotatedUI](images/GUIGuidance.png) <br>
 
+
 Here is a table to better understand how to put our GUI into best use:
 
 | GUI Feature |  What will it do? / What is this for? |
@@ -70,6 +69,7 @@ Here is a table to better understand how to put our GUI into best use:
 | Command Feedback Box | This box will provide you with feedback accordingly, (i.e. if your command has been executed). It is especially useful if your command fails to execute as it will provide you with the source of error! |
 | Buttons for Sets | These buttons will appear and disappear automatically when you add a new set or delete all your flashcards in an existing set. This is a feature for point-and-click navigation, just in case you simply opened Bagel to revise and not make any changes! |
 | Flashcard Display List | This list will display your selected list of flashcards (i.e. filtered or not). It will even show you a specific flashcard with all its details when you want it to (i.e. View Command). |
+
 
 #### Bagel's Symbols and Syntax
 
@@ -83,12 +83,14 @@ The table below will guide you through the general symbols and specific technica
 | Parameter | The words, phrases or values following each prefix given to a command to execute your specified action.|
 | Prefix | The characters after every command word and at the start of a parameter. E.g. "/t" or "/d". |
 
+
 **Here is an example to help you understand the table better:** <br>
 `add t/TITLE d/DESCRIPTION s/SET [l/LINK] [tag/TAG]…`
 
 * Command Word/Command: `add` <br>
 * Parameters: `TITLE`, `DESCRIPTION`, `SET`, `LINK`, `TAG` <br>
 * Prefixes: `t/`, `d/`, `s/`, `l/`, `t/`  <br>
+
 
 
 <div markdown="block" class="alert alert-info">
@@ -116,6 +118,7 @@ only the last parameter supplied will be considered.
   `title 2`, as only `t/title 2` will be considered.
 </div>
 
+<div style="page-break-after: always;"></div>
 
 --------------------------------------------------------------------------------------------------------------------
 
