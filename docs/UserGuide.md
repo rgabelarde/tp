@@ -40,7 +40,6 @@ If you can type fast, Bagel will be sure to aid you in managing your flashcards 
 Refer to the [Features](#features) below for details of each command.
 
 --------------------------------------------------------------------------------------------------------------------
-<div style="page-break-after: always;"></div>
 
 ## Features
 
@@ -120,6 +119,7 @@ Once you delete a flashcard, there is no way to undo this and retrieve it! Make 
 that you would like to delete this specific flashcard!
 </div>
 
+<div style="page-break-after: always;"></div>
 
 ### Editing a flashcard: `edit`
 
