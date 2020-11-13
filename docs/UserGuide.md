@@ -69,8 +69,6 @@ only the last parameter supplied will be considered.
   `title 2`, as only `t/title 2` will be considered.
 </div>
 
-<div style="page-break-after: always;"></div>
-
 ### Adding a flashcard: `add`
 
 Want to make a new flashcard? This command will add a new flashcard to your current list of flashcards, into the set that you have specified.
@@ -102,8 +100,6 @@ with the tag `OddsRatio` into set `3`.
 l/https://en.wikipedia.org/wiki/Observational_study tag/Types tag/ObservationalStudies s/2` adds a new flashcard with
 the title `Types of Observational Studies`, description `Prospective, Retrospective, Cross-sectional`,
 link `https://en.wikipedia.org/wiki/Observational_study` with the tags `Types` and `ObservationalStudies` into set `2`.
-
-<div style="page-break-after: always;"></div>
 
 ### Deleting a flashcard: `delete`
 
@@ -249,6 +245,12 @@ Examples:
 * `sort r/tag` returns the list of flashcards, sorted according to each flashcard's first tag.
 * `sort r/atitle` returns the list of flashcards, sorted in ascending alphabetical order.
 
+<div markdown="block" class="alert alert-info">
+**:information_source: Warning:**<br>
+This sorts all flashcards in Bagel! If you wish to view a set that is differently sorted
+from another set, `sort r/REQUIREMENT` again for that set.
+</div>
+
 Visual walkthrough:
 1. You want to sort your list of flashcards by ascending title.
 2. Type `sort`, followed by `r/atitle` for the requirement.
@@ -256,12 +258,6 @@ Visual walkthrough:
 3. The sorted list of flashcards will be displayed.
 ![sort example](images/sortExample2.png)
 
-
-<div markdown="block" class="alert alert-info">
-**:information_source: Warning:**<br>
-This sorts all flashcards in Bagel! If you wish to view a set that is differently sorted
-from another set, `sort r/REQUIREMENT` again for that set.
-</div>
 
 <div style="page-break-after: always;"></div>
 
